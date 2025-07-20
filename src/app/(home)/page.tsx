@@ -32,13 +32,13 @@ export default function Page() {
         <article className="flex flex-col gap-8 pb-10">
           <div>
             <p className="inline">
-              👋🏼 Hi, I&apos;m a full time tech enthusiast graduated in <strong>Interactive Communication</strong> and
+              I&apos;m a senior web developer with <strong>{yearSince2018}+ years</strong> of of hands-on experience, 
               based in <GeoTooltip />
             </p>
           </div>
           <div className="flex flex-col gap-4">
             <p>
-              With +{yearSince2018} years of experience, I have a strong background in web development and have worked
+              I have a strong background in web development and have worked
               from small websites to <strong>large-scale web applications</strong>.
             </p>
           </div>

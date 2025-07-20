@@ -1,7 +1,7 @@
 {
   "$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
 
-  "extends": ["@polgubau/configs/biome"],
+  "extends": ["@minamiharuto/configs/biome"],
   "files": {
     "ignore": ["**/node_modules/**", "contentlayer.config.js", "next.config.js", "tailwind.config.js"]
   },

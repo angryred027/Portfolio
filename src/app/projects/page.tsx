@@ -5,22 +5,22 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Projects",
   description: "Discover my recent projects and achievements.",
-  keywords: ["projects", "portfolio", "web development", "coding", "Pol Gubau Amores"],
+  keywords: ["projects", "portfolio", "web development", "coding", "Minami Haruto"],
   authors: {
-    url: "https://polgubau.com",
-    name: "Pol Gubau Amores",
+    url: "https://minamiharuto.github.io",
+    name: "Minami Haruto",
   },
   openGraph: {
-    title: "Projects | Pol Gubau Amores",
+    title: "Projects | Minami Haruto",
     description: "Discover my recent projects and achievements, get to know my work and how I can help you.",
-    url: "https://polgubau.com/projects",
+    url: "https://minamiharuto.github.io/projects",
     locale: "en_US",
     images: [
       {
-        url: "https://polgubau.com/brand/projects-thumbnail.png",
+        url: "https://minamiharuto.github.io/brand/projects-thumbnail.png",
         width: 1920,
         height: 1080,
-        alt: "Pol Gubau Amores' projects preview",
+        alt: "Minami Haruto' projects preview",
       },
     ],
     type: "website",

@@ -12,4 +12,4 @@ This project keeps 2 versions in 2 different branches. Use main as the master so
 
 ## Reporting a Vulnerability
 
-To report vulnerabilities please [go to issues tab](https://github.com/PolGubau/portfolio/issues) or contact the owner.
+To report vulnerabilities please [go to issues tab](https://github.com/minamiharuto/portfolio/issues) or contact the owner.

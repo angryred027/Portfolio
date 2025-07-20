@@ -8,10 +8,10 @@ export function Avatar() {
       placeholder={largeProfileAvatar}
       src="/media/me.png"
       className="z-30 hidden rounded-full bg-primary-300 md:flex"
-      alt="Pol Gubau Amores' profile image"
+      alt="Minami Haruto's profile image"
       width={150}
       height={150}
-      title="Pol Gubau Amores' profile image"
+      title="Minami Haruto's profile image"
     />
   );
 }

@@ -1,4 +1,4 @@
-# Pol Gubau Amores' Portfolio Contributing Guide
+# Minami Haruto' Portfolio Contributing Guide
 
 Thank you for being interested in contributing, please before writing code take a minute to read this file :)
 

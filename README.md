@@ -1,4 +1,4 @@
-# **Pol Gubau Amores - Portfolio and Personal Blog**
+# **Minami Haruto - Portfolio and Personal Blog**
 
 ## A showcase of my skills and projects
 
@@ -20,15 +20,15 @@ This is the repository for my personal portfolio and blog. It is built with Next
 
 ## **Demo**
 
-Visit my portfolio at **[https://www.polgubau.com](https://www.polgubau.com/)** to see the project in action!
+Visit my portfolio at **[https://www.minamiharuto.com](https://www.minamiharuto.com/)** to see the project in action!
 
 ## **Screenshots**
 
-![Home Page](https://www.polgubau.com/brand/thumbnail.png)
+![Home Page](https://www.minamiharuto.com/brand/thumbnail.png)
 
-![Blog Page](https://www.polgubau.com/brand/thumbnail-blog.png)
+![Blog Page](https://www.minamiharuto.com/brand/thumbnail-blog.png)
 
-![Projects Page](https://www.polgubau.com/brand/thumbnail-projects.png)
+![Projects Page](https://www.minamiharuto.com/brand/thumbnail-projects.png)
 
 ## **Technologies Used**
 
@@ -44,7 +44,7 @@ Visit my portfolio at **[https://www.polgubau.com](https://www.polgubau.com/)** 
 
 ## **Installation**
 
-1. Clone the repository: **`git clone https://github.com/PolGubau/portfolio.git`**
+1. Clone the repository: **`git clone https://github.com/minamiharuto/portfolio.git`**
 2. Install dependencies: **`pnpm i`**
 3. Run the development server: **`pnpm dev`**
 4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -52,13 +52,13 @@ Visit my portfolio at **[https://www.polgubau.com](https://www.polgubau.com/)** 
 
 ## **License**
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/PolGubau/portfolio/blob/main/LICENSE.txt) file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/minamiharuto/portfolio/blob/main/LICENSE.txt) file for details.
 
 ## **Contact**
 
-- **Email:** [gubaupol@PolGubau](gubaupol@PolGubau)
-- **Website:** [https://www.polgubau.com](https://www.polgubau.com/)
+- **Email:** [angryred027@minamiharuto](angryred027@minamiharuto)
+- **Website:** [https://www.minamiharuto.com](https://www.minamiharuto.com/)
 - **LinkedIn:** [https://www.linkedin.com/in/pol-gubau-amores/](https://www.linkedin.com/in/pol-gubau-amores/)
-- **GitHub:** [https://github.com/PolGubau](https://github.com/PolGubau)
+- **GitHub:** [https://github.com/minamiharuto](https://github.com/minamiharuto)
 
 Thanks for reading, have a nice day! 🌞

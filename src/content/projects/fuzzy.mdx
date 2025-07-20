@@ -9,8 +9,8 @@ available: true
 
 summary: "A collection of small, focused utility functions." 
 
-githubLink: https://github.com/PolGubau/utils
-link: https://utils.polgubau.com
+githubLink: https://github.com/minamiharuto/utils
+link: https://utils.minamiharuto.com
 
 tech: 
   - functions
@@ -20,11 +20,11 @@ tech:
 ---
 
 
-# @polgubau/fuzzy 🔍
-**@polgubau/fuzzy** is an optimized fuzzy finder library designed with TypeScript from the roots. You just need to type one command and call one function to get a fuzzy finder for your project.
+# @minamiharuto/fuzzy 🔍
+**@minamiharuto/fuzzy** is an optimized fuzzy finder library designed with TypeScript from the roots. You just need to type one command and call one function to get a fuzzy finder for your project.
  
  
-![Hero image](https://raw.githubusercontent.com/PolGubau/fuzzy/main/apps/docs/public/opengraph-image.png)
+![Hero image](https://raw.githubusercontent.com/minamiharuto/fuzzy/main/apps/docs/public/opengraph-image.png)
 
 
 ## What and why
@@ -49,13 +49,13 @@ It allows you to create a fuzzy search function that can be reused across your a
 Install the library using your package manager of choice:
 
 ```sh title="bash"
-pnpm add @polgubau/fuzzy
+pnpm add @minamiharuto/fuzzy
 ```
 
 ## Usage
 
 ```ts title="index.ts"
-import fuzzy from '@polgubau/fuzzy';
+import fuzzy from '@minamiharuto/fuzzy';
 
 const list = ["volvo", "seat", "mercedes", "audi", "bmw"];
 const queryText = "volv"; // The search term
@@ -68,7 +68,7 @@ console.log(fuzzedList);
 ## Framework adapters
 The library core is available as a standalone package, but we also provide adapters for popular frameworks like React and Vue.
 
-> Notice how the core import is *@polgubau/fuzzy*, while the React and Vue adapters are imported from *@polgubau/fuzzy/react* and *@polgubau/fuzzy/vue* respectively.
+> Notice how the core import is *@minamiharuto/fuzzy*, while the React and Vue adapters are imported from *@minamiharuto/fuzzy/react* and *@minamiharuto/fuzzy/vue* respectively.
 
 Using this import will allow you to use the library in a framework-agnostic way, while the framework-specific imports will provide additional functionality tailored to that framework. So you don't import vue or react bundles if you don't need them. 
 
@@ -76,7 +76,7 @@ Using this import will allow you to use the library in a framework-agnostic way,
 To simplify the integration of fuzzy search into your React applications, we provide a custom hook called *useFuzzy*.
 
 ```tsx title="App.tsx"
-import { useFuzzy, Highlight } from '@polgubau/fuzzy/react' // Note: now importing from /react
+import { useFuzzy, Highlight } from '@minamiharuto/fuzzy/react' // Note: now importing from /react
 
 const filteredList = useFuzzy({
   list: ["volvo", "seat", "mercedes", "audi", "bmw"],
@@ -107,7 +107,7 @@ The same approach is available for Vue applications. We provide a composable cal
  
 <script lang="ts">
 import { ref } from "vue";
-import { useFuzzy } from "@polgubau/fuzzy/vue";
+import { useFuzzy } from "@minamiharuto/fuzzy/vue";
  
 export default {
   setup() {
@@ -127,7 +127,7 @@ export default {
 </script>
 ```
 ## Documentation
-The documentation page is available at [fuzzy.polgubau.com](https://fuzzy.polgubau.com).
+The documentation page is available at [fuzzy.minamiharuto.com](https://fuzzy.minamiharuto.com).
 
 The documentation is built using [Fumadocs](https://fumadocs.com) with some customizations.
 
@@ -166,44 +166,44 @@ pnpm test
 
 ---
 ## Author and license
-Made with ❤️ by [Pol Gubau Amores](https://polgubau.com)
+Made with ❤️ by [Minami Haruto](https://minamiharuto.github.io)
 
 This project is based on *microfuzz*, which was created by [@Nozbe](https://github.com/Nozbe), some improvements were made to the original code, and it was rewritten in TypeScript.
 
-[See all contributors](https://github.com/PolGubau/fuzzy/graphs/contributors).
+[See all contributors](https://github.com/minamiharuto/fuzzy/graphs/contributors).
 
-This project is available under the MIT license. See the [LICENSE file](https://github.com/PolGubau/fuzzy/LICENSE) for more info.
+This project is available under the MIT license. See the [LICENSE file](https://github.com/minamiharuto/fuzzy/LICENSE) for more info.
 
 
 ## 💡 More info
 
-- [Documentation](https://utils.polgubau.com)
-- [GitHub Repository](https://github.com/polgubau/utils)
-- [NPM Package](https://www.npmjs.com/package/@polgubau/utils)
+- [Documentation](https://utils.minamiharuto.com)
+- [GitHub Repository](https://github.com/minamiharuto/utils)
+- [NPM Package](https://www.npmjs.com/package/@minamiharuto/utils)
 
 
 ## Badges
 
 <nav className="flex items-center gap-4 flex-wrap">
-![Branches](https://raw.githubusercontent.com/PolGubau/fuzzy/2d0326e92c70efb4535359e962ddee970b7a4025/badges/packages/fuzzy/coverage-branches.svg)
+![Branches](https://raw.githubusercontent.com/minamiharuto/fuzzy/2d0326e92c70efb4535359e962ddee970b7a4025/badges/packages/fuzzy/coverage-branches.svg)
 
-![Functions](https://raw.githubusercontent.com/PolGubau/fuzzy/2d0326e92c70efb4535359e962ddee970b7a4025/badges/packages/fuzzy/coverage-functions.svg)
+![Functions](https://raw.githubusercontent.com/minamiharuto/fuzzy/2d0326e92c70efb4535359e962ddee970b7a4025/badges/packages/fuzzy/coverage-functions.svg)
 
-![Lines](https://raw.githubusercontent.com/PolGubau/fuzzy/2d0326e92c70efb4535359e962ddee970b7a4025/badges/packages/fuzzy/coverage-lines.svg)
+![Lines](https://raw.githubusercontent.com/minamiharuto/fuzzy/2d0326e92c70efb4535359e962ddee970b7a4025/badges/packages/fuzzy/coverage-lines.svg)
 
-![Statements](https://raw.githubusercontent.com/PolGubau/fuzzy/2d0326e92c70efb4535359e962ddee970b7a4025/badges/packages/fuzzy/coverage-statements.svg)
+![Statements](https://raw.githubusercontent.com/minamiharuto/fuzzy/2d0326e92c70efb4535359e962ddee970b7a4025/badges/packages/fuzzy/coverage-statements.svg)
 
-![Coverage total](https://raw.githubusercontent.com/PolGubau/fuzzy/2d0326e92c70efb4535359e962ddee970b7a4025/badges/packages/fuzzy/coverage-total.svg)
+![Coverage total](https://raw.githubusercontent.com/minamiharuto/fuzzy/2d0326e92c70efb4535359e962ddee970b7a4025/badges/packages/fuzzy/coverage-total.svg)
 
-![Last commit](https://img.shields.io/github/last-commit/PolGubau/fuzzy?logo=git)
+![Last commit](https://img.shields.io/github/last-commit/minamiharuto/fuzzy?logo=git)
 
-![Last Update](https://img.shields.io/npm/last-update/%40polgubau%2Ffuzzy?logo=npm&label=last%20update)
+![Last Update](https://img.shields.io/npm/last-update/%40minamiharuto%2Ffuzzy?logo=npm&label=last%20update)
 
-![Version](https://img.shields.io/npm/v/%40polgubau%2Ffuzzy?logo=npm&label=version)
+![Version](https://img.shields.io/npm/v/%40minamiharuto%2Ffuzzy?logo=npm&label=version)
 
-![License](https://img.shields.io/github/license/PolGubau/fuzzy?logo=github&label=license)
+![License](https://img.shields.io/github/license/minamiharuto/fuzzy?logo=github&label=license)
 
-![Downloads](https://img.shields.io/npm/dt/%40polgubau%2Ffuzzy?logo=npm&label=downloads)
+![Downloads](https://img.shields.io/npm/dt/%40minamiharuto%2Ffuzzy?logo=npm&label=downloads)
 
 [![Formatted with Biome](https://img.shields.io/badge/Formatted_with-Biome-60a5fa?style=flat&logo=biome)](https://biomejs.dev/)
 

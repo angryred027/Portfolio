@@ -14,8 +14,8 @@
     "knip": "knip"
   },
   "dependencies": {
-    "@polgubau/animated": "^1.0.12",
-    "@polgubau/configs": "^1.0.1",
+    "@minamiharuto/animated": "^1.0.12",
+    "@minamiharuto/configs": "^1.0.1",
     "@vercel/edge-config": "^0.4.1",
     "contentlayer": "^0.3.4",
     "framer-motion": "^10.18.0",
@@ -45,52 +45,53 @@
     "typescript": "5.2.2"
   },
   "version": "0.0.1",
-  "description": "👋🏼 Hello! I'm Pol Gubau Amores, a Frontend Developer and Designer based in Barcelona. I love to create beautiful and functional websites and apps. In my portfolio you can read my blog and check my most important projects.",
+  "description": "Hello! I'm Minami Haruto, a Frontend Developer and Designer based in Osaka, Japan. I love to create beautiful and functional websites and apps. In my portfolio you can read my blog and check my most important projects.",
   "keywords": [
-    "pol",
-    "gubau",
-    "amores",
+    "minami",
+    "haruto",
     "portfolio",
     "web",
-    "freiburg",
-    "Pol Gubau Amores",
-    "Pol Gubau",
+    "full-stack",
+    "Minami Haruto",
     "freelance",
     "frontend",
     "developer",
     "designer",
-    "freiburg",
+    "web developer",
     "blog",
     "projects",
     "web development",
     "web design",
-    "web developer"
+    "full-stack developer",
+    "osaka",
+    "sakai",
+    "japan"
   ],
   "author": {
-    "name": "Pol Gubau Amores",
-    "email": "gubaupol@gmail.com",
-    "url": "https://polgubau.com"
+    "name": "Minami Haruto",
+    "email": "angryred027@gmail.com",
+    "url": "https://minamiharuto.github.io"
   },
-  "homepage": "https://polgubau.com",
+  "homepage": "https://minamiharuto.github.io",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/PolGubau/portfolio"
+    "url": "https://github.com/minamiharuto/portfolio"
   },
   "bugs": {
-    "url": "https://github.com/PolGubau/portfolio/issues",
-    "email": "gubaupol@gmail.com"
+    "url": "https://github.com/minamiharuto/portfolio/issues",
+    "email": "angryred027@gmail.com"
   },
-  "publisher": "Pol Gubau Amores",
+  "publisher": "Minami Haruto",
   "contributors": [
     {
-      "name": "Pol Gubau Amores",
-      "email": "gubaupol@gmail.com",
-      "url": "https://polgubau.com"
+      "name": "Minami Haruto",
+      "email": "angryred027@gmail.com",
+      "url": "https://minamiharuto.github.io"
     }
   ],
-  "icon": "https://polgubau.com/favicon.ico",
-  "name": "polgubau",
+  "icon": "https://minamiharuto.github.io/favicon.ico",
+  "name": "minamiharuto",
   "licenses": [
     {
       "type": "MIT",
