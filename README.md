@@ -54,9 +54,8 @@ This project is licensed under the MIT License - see the [LICENSE.md](https://gi
 
 ## **Contact**
 
-- **Email:** [angryred027@minamiharuto](angryred027@minamiharuto)
+- **Email:** [angryred027@gmail.com, minamiharuto727@gmail.com](angryred027@gmail.com)
 - **Website:** [https://www.minamiharuto.com](https://www.minamiharuto.com/)
-- **LinkedIn:** [https://www.linkedin.com/in/pol-gubau-amores/](https://www.linkedin.com/in/pol-gubau-amores/)
 - **GitHub:** [https://github.com/minamiharuto](https://github.com/minamiharuto)
 
-Thanks for reading, have a nice day! 🌞
+Thanks for reading, have a nice day!

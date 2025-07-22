@@ -1,8 +1,11 @@
 const { get } = require("@vercel/edge-config");
 const { withContentlayer } = require("next-contentlayer");
- 
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  experimental: {
+    serverActions: true,
+  },
   redirects() {
     try {
       return get("redirects");
@@ -12,6 +15,15 @@ const nextConfig = {
   },
   async headers() {
     return [
+      {
+        source: '/(.*)',
+        headers: [
+          {
+            key: 'x-vercel-ip-country',
+            value: 'JP',
+          },
+        ],
+      },
       {
         source: "/(.*)",
         headers: securityHeaders,
@@ -86,4 +98,4 @@ const securityHeaders = [
 
 const baseConfig = withContentlayer(nextConfig);
 
-module.exports =baseConfig;
+module.exports = baseConfig;
