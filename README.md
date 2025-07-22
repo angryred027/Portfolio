@@ -7,7 +7,6 @@ This is the repository for my personal portfolio and blog. It is built with Next
 ## **Features**
 
 - [x] **Responsive Design**, it looks good on any device!
-- [x] **Dark Mode**, it has a dark mode directly adapted from the system preferences.
 - [x] **Blog**, it has a blog with markdown x support where I can write about my projects and other topics.
 - [x] **Animations**, it has animations and transitions to make the experience more enjoyable.
 - [x] **SEO**, it has SEO support and it is optimized for search engines.
@@ -48,7 +47,6 @@ Visit my portfolio at **[https://www.minamiharuto.com](https://www.minamiharuto.
 2. Install dependencies: **`pnpm i`**
 3. Run the development server: **`pnpm dev`**
 4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
 
 ## **License**
 

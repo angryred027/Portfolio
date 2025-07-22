@@ -6,14 +6,15 @@ import { NavItem } from "./NavItem";
 
 const navItems = {
   "/": { name: "Home" },
+  "/experiences": { name: "Experiences" },
   "/projects": { name: "Projects" },
-  "/experiments": { name: "Experiments" },
   "/blog": { name: "Blog" },
 };
+
 export function Navbar() {
   return (
     <aside
-      className="mb-12 flex justify-center tracking-tight md:justify-start"
+      className="mb-2 flex justify-center tracking-tight md:justify-start md:p-4"
       style={{
         zIndex: 999,
       }}

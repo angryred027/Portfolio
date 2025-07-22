@@ -5,7 +5,7 @@ import { Avatar } from "../avatar/avatar";
 
 export function Header() {
   return (
-    <header className="mb-8 flex flex-col items-center justify-between gap-8 md:flex-row">
+    <header className="flex flex-col items-center justify-between gap-8 md:flex-row md: p-4">
       <Image
         src="/media/me.png"
         className="flex justify-center rounded-3xl bg-primary-300 object-cover object-bottom drop-shadow-md md:hidden"

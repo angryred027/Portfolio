@@ -374,7 +374,9 @@ class Media {
     }
     this.scale = this.screen.height / 1500;
     this.plane.scale.y = (this.viewport.height * (900 * this.scale)) / this.screen.height;
-    this.plane.scale.x = (this.viewport.width * (700 * this.scale)) / this.screen.width;
+    this.plane.scale.x = (this.viewport.width * (1200 * this.scale)) / this.screen.width;
+
+
     this.plane.program.uniforms.uPlaneSizes.value = [this.plane.scale.x, this.plane.scale.y];
     this.padding = 2;
     this.width = this.plane.scale.x + this.padding;
@@ -473,96 +475,32 @@ class App {
   ) {
     const defaultItems = [
       {
-        image: "/media/photos/tfg.webp",
-        text: "Thesis Defense",
+        image: "/media/photos/1.webp",
+        text: "みなみかわらまち さんちょうめ いちばんち", // 南川原町3丁目1番地
       },
       {
-        image: "/media/photos/barcelona.webp",
-        text: "Barcelona",
+        image: "/media/photos/2.webp",
+        text: "おおさかふ さかいし", // 大阪府堺市
       },
       {
-        image: "/media/photos/berlin.webp",
-        text: "Berlin",
+        image: "/media/photos/3.webp",
+        text: "だい ろくじゅうさんき そつぎょうせい", // 第63期卒業生
       },
       {
-        image: "/media/photos/bilbao.jpg",
-        text: "Bilbao",
+        image: "/media/photos/4.webp",
+        text: "こうがくぶ", // 工学部
       },
       {
-        image: "/media/photos/brussels.webp",
-        text: "Brussels",
+        image: "/media/photos/5.webp",
+        text: "おおさかふ さかいし", // 大阪府堺市
       },
       {
-        image: "/media/photos/colmar.webp",
-        text: "Colmar",
+        image: "/media/photos/6.webp",
+        text: "おおさかふ さかいし なかく", // 大阪府堺市中区
       },
       {
-        image: "/media/photos/florence.webp",
-        text: "Florence",
-      },
-      {
-        image: "/media/photos/geneva.webp",
-        text: "Geneva",
-      },
-      {
-        image: "/media/photos/gothenburg.webp",
-        text: "Gothenburg",
-      },
-      {
-        image: "/media/photos/helsinki.webp",
-        text: "Helsinki",
-      },
-      {
-        image: "/media/photos/kalmar.webp",
-        text: "Kalmar",
-      },
-      {
-        image: "/media/photos/lyon.webp",
-        text: "Lyon",
-      },
-      {
-        image: "/media/photos/madrid.webp",
-        text: "Madrid",
-      },
-      {
-        image: "/media/photos/marseille.webp",
-        text: "Marseille",
-      },
-      {
-        image: "/media/photos/pisa.webp",
-        text: "Pisa",
-      },
-      {
-        image: "/media/photos/rome.webp",
-        text: "Rome",
-      },
-      {
-        image: "/media/photos/santander.webp",
-        text: "Santander",
-      },
-      {
-        image: "/media/photos/stockholm.webp",
-        text: "Stockholm",
-      },
-      {
-        image: "/media/photos/strasbourg.webp",
-        text: "Strasbourg",
-      },
-      {
-        image: "/media/photos/valladolid.webp",
-        text: "Valladolid",
-      },
-      {
-        image: "/media/photos/vatican.webp",
-        text: "Vatican",
-      },
-      {
-        image: "/media/photos/växjö.webp",
-        text: "Växjö",
-      },
-      {
-        image: "/media/photos/vilnius.webp",
-        text: "Vilnius",
+        image: "/media/photos/7.webp",
+        text: "こくさいこうりゅう", // 国際交流
       },
     ];
     const galleryItems = items?.length ? items : defaultItems;
@@ -709,7 +647,7 @@ const CircularGallery = ({
   bend = 3,
   textColor = "#ffffff",
   borderRadius = 0.05,
-  font = "bold 30px DM Sans",
+  font = "bold 20px DM Sans",
 }: CircularGalleryProps) => {
   const containerRef = useRef<HTMLDivElement>(null);
   useEffect(() => {

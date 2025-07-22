@@ -8,9 +8,9 @@
 --color-primary-50: #ffffec;
 --color-primary-100: #ffffc5;
 --color-primary-200: #ffffa9;
---color-primary-300: #ffff82;
+--color-primary-300: #4879C6;
 --color-primary-400: #ffff69;
---color-primary-500: #ffff44;
+--color-primary-500: #4879C6;
 --color-primary-600: #e8e83e;
 --color-primary-700: #b5b530;
 --color-primary-800: #8c8c25;
@@ -348,4 +348,21 @@ animation-fill-mode: both;
   animation-name: cascade-animation;
   animation-range: entry 20% cover 50%;
   animation-fill-mode: both;
+}
+
+
+.font-merryweather {
+  font-family: 'Merriweather', serif;
+}
+
+.font-opensans {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.experience-title {
+  display: inline-block;
+}
+
+html {
+  scroll-behavior: smooth;
 }

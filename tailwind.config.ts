@@ -1,6 +1,10 @@
 import { poluiPlugin } from "pol-ui";
 
 export default {
+  content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
+  theme: {
+    extend: {},
+  },
   plugins: [
     poluiPlugin({
       colors: {
