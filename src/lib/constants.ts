@@ -38,8 +38,8 @@ export const metadata = {
   links: {
     website: "https:/angryred027.github.io/",
     github: "http://github.com/angryred027",
-    linkedin: "https://www.linkedin.com/in/angryred027/",
-    email: "mailto:angryred027@gmail.com",
+    email: "mailto:minamiharuto727@gmail.com",
+    cv: "https:/angryred027.github.io/files/MinamiHaruto.pdf"
   },
 
   homeOgImage: "/assets/thumbnail.png",

@@ -10,6 +10,7 @@ import { LoadingGallery } from "../../components/circularGallery/loading-gallery
 import { lazy, Suspense, useEffect } from "react";
 import { useSearchParams } from "next/navigation";
 import WorkExperienceCard from "@/components/Experiences/ExperienceCard";
+import { AnimatedLogo } from "@/components/AnimatedLogo";
 
 const CircularGallery = lazy(() => import("@/components/circularGallery/circularGallery"));
 const imagesPhones = [
@@ -118,7 +119,7 @@ export default function Page() {
           <BlogLink slug="blog/whyHaveSideProjects" name="Why you should have a side project" />
           <BlogLink slug="blog/chooseSideProjects" name="How to choose a side project" />
         </div> */}
-        <ProjectsList projects={firstProjects} />
+        {/* <ProjectsList projects={firstProjects} /> */}
 
         <BlogLink slug="/projects" name="See my recent projects" />
 
