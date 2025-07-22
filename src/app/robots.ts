@@ -7,7 +7,7 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: "/private/",
     },
-    sitemap: "https://polgubau.com/sitemap.xml",
-    host: "https://polgubau.com",
+    sitemap: "https://minamiharuto.github.io/sitemap.xml",
+    host: "https://minamiharuto.github.io",
   };
 }

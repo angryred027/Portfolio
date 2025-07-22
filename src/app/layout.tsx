@@ -11,7 +11,7 @@ import { Providers } from "./providers";
 //
 const APP_NAME = constants.title;
 //
-const APP_DEFAULT_TITLE = `${APP_NAME} - Frontend Developer and UX Designer`;
+const APP_DEFAULT_TITLE = `${APP_NAME} - Senior Web Developer`;
 const APP_TITLE_TEMPLATE = `%s | ${APP_NAME}`;
 const APP_DESCRIPTION = constants.description;
 export const metadata: Metadata = {
@@ -91,14 +91,6 @@ export const metadata: Metadata = {
       url: constants.links.website,
     },
   ],
-
-  twitter: {
-    site: constants.links.twitter,
-    description: constants.description,
-    creator: constants.links.twitter,
-    title: constants.title,
-    card: "summary_large_image",
-  },
   appleWebApp: {
     title: constants.title,
     statusBarStyle: "black-translucent",
@@ -129,7 +121,7 @@ export default function RootLayout({
         <Providers>
           <ScrollLine />
           <main className="flex min-h-screen w-full">
-            <div className="mt-8 mb-20 flex w-full max-w-4xl flex-auto flex-col px-4 md:mx-auto md:px-10">
+            <div className="mt-8 mb-12 flex w-full max-w-6xl flex-auto flex-col px-4 md:mx-auto md:px-10">
               <Navbar />
               {children}
               <Footer />

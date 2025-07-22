@@ -4,11 +4,11 @@ import Link from "next/link";
 
 export function Footer() {
   return (
-    <div className="mt-24 mb-20 flex flex-col items-center justify-center gap-6 text-center text-neutral-700 md:justify-start md:text-left dark:text-neutral-300">
-      <Link
+    <div className="mt-24 mb-20  flex flex-col items-center justify-center gap-6 text-center text-neutral-700 md:justify-start md:text-left dark:text-neutral-300">
+      {/* <Link
         title="Download my CV"
-        href="/files/PolGubau_CV.pdf"
-        download={`${metadata.longName} CV`}
+        href="/files/minamiharuto_CV.pdf"
+        download={`${metadata.fullName} CV`}
         hrefLang="en-us"
         passHref={true}
         target="_blank"
@@ -33,14 +33,16 @@ export function Footer() {
           <line x1="12" y1="15" x2="12" y2="3" />
         </svg>
         Download my CV
-      </Link>
+      </Link> */}
 
       <MainSocials />
       <p>
-        Made with <span className="font-semibold text-primary-700 dark:text-primary">love</span> by{" "}
-        <Link href="https://polgubau.com" title="Visit my website">
-          {metadata.longName}
-        </Link>
+        © {new Date().getFullYear()} &nbsp;
+        <span className="font-semibold text-primary-700 dark:text-primary">
+          <Link href="https://minamiharuto.github.io" title="Visit my website">
+            {metadata.fullName}
+          </Link>
+        </span>{" "}
       </p>
     </div>
   );

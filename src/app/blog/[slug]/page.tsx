@@ -23,10 +23,10 @@ export async function generateMetadata(props: GenerateMetadataProps, parent: Res
         title: "Not found",
         description: "This blog was not found.",
         type: "article",
-        url: `https://polgubau.com/blog/${params.slug}`,
+        url: `https://minamiharuto.github.io/blog/${params.slug}`,
         images: [
           {
-            url: "https://polgubau.com/og?title=Not found",
+            url: "https://minamiharuto.github.io/og?title=Not found",
           },
         ],
       },
@@ -34,18 +34,18 @@ export async function generateMetadata(props: GenerateMetadataProps, parent: Res
   }
 
   const { title, publishedAt: publishedTime, summary: description, cover, slug } = post;
-  const ogImage = cover ? `https://polgubau.com/media/${slug}/${cover}` : `https://polgubau.com/og?title=${title}`;
+  const ogImage = cover ? `https://minamiharuto.github.io/media/${slug}/${cover}` : `https://minamiharuto.github.io/og?title=${title}`;
   const previousImages = (await parent).openGraph?.images ?? [];
 
   return {
     title,
     description,
     openGraph: {
-      title: `${title} | Pol Gubau Amores`,
+      title: `${title} | Minami Haruto`,
       description,
       type: "article",
       publishedTime,
-      url: `https://polgubau.com/${slug}`,
+      url: `https://minamiharuto.github.io/${slug}`,
       images: [ogImage, ...previousImages],
     },
     twitter: {

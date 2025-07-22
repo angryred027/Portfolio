@@ -5,22 +5,22 @@ import { type Blog, allBlogs } from ".contentlayer/generated";
 export const metadata: Metadata = {
   title: "Blog",
   description: "Read my thoughts on software development, design, and more, and get to know me better.",
-  keywords: ["projects", "portfolio", "web development", "coding", "Pol Gubau Amores"],
+  keywords: ["projects", "portfolio", "web development", "coding", "Minami Haruto"],
   authors: {
-    url: "https://polgubau.com",
-    name: "Pol Gubau Amores",
+    url: "https://minamiharuto.github.io",
+    name: "Minami Haruto",
   },
   openGraph: {
-    title: "Blog | Pol Gubau Amores",
+    title: "Blog | Minami Haruto",
     description: "Read my thoughts on software development, design, and more, and get to know me better.",
-    url: "https://polgubau.com/blog",
+    url: "https://minamiharuto.github.io/blog",
     locale: "en_US",
     images: [
       {
-        url: "https://polgubau.com/brand/blog-thumbnail.png",
+        url: "https://minamiharuto.github.io/brand/blog-thumbnail.png",
         width: 1920,
         height: 1080,
-        alt: "Pol Gubau Amores' blog",
+        alt: "Minami Haruto' blog",
       },
     ],
     type: "website",

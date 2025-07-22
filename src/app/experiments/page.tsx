@@ -7,23 +7,23 @@ export const metadata: Metadata = {
   title: "Concepts",
   description:
     "Discover some UI pieces I used for various projects, these are short videos that show the UI in action.",
-  keywords: ["UI", "UX", "web development", "coding", "Pol Gubau Amores"],
+  keywords: ["UI", "UX", "web development", "coding", "Minami Haruto"],
   authors: {
-    url: "https://polgubau.com",
-    name: "Pol Gubau Amores",
+    url: "https://minamiharuto.github.io",
+    name: "Minami Haruto",
   },
   openGraph: {
-    title: "Concepts | Pol Gubau Amores",
+    title: "Concepts | Minami Haruto",
     description:
       "Discover some UI pieces I used for various projects, these are short videos that show the UI in action.",
-    url: "https://polgubau.com/concepts",
+    url: "https://minamiharuto.github.io/concepts",
     locale: "en_US",
     images: [
       {
-        url: "https://polgubau.com/brand/concepts-thumbnail.png",
+        url: "https://minamiharuto.github.io/brand/concepts-thumbnail.png",
         width: 1920,
         height: 1080,
-        alt: "Pol Gubau Amores' Concepts",
+        alt: "Minami Haruto' Concepts",
       },
     ],
     type: "website",

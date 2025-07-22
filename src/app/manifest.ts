@@ -9,14 +9,14 @@ export default function manifest() {
     display_override: ["window-controls-overlay", "standalone"],
     start_url: "/",
     scope: "/",
-    id: "com.polgubau.portfolio",
+    id: "com.minamiharuto.portfolio",
     orientation: "any",
     lang: "en",
     prefer_related_applications: false,
-    categories: ["development", "pol", "pol gubau amores", "Pol Gubau Amores", "news", "blog", "frontend"],
-    name: "Pol Gubau Amores",
+    categories: ["development", "pol", "Minami Haruto", "Minami Haruto", "news", "blog", "frontend"],
+    name: "Minami Haruto",
     description:
-      "👋🏼 Hello! I'm Pol Gubau Amores, a Frontend Developer and Designer based in Germany. I love to create beautiful and functional websites and apps.",
+      "👋🏼 Hello! I'm Minami Haruto, a Frontend Developer and Designer based in Germany. I love to create beautiful and functional websites and apps.",
     short_name: "Pol Gubau",
     related_applications: [],
     icons: [
@@ -73,7 +73,7 @@ export default function manifest() {
         url: "/?pwaprotocolredirect=%s",
       },
       {
-        protocol: "web+polgubau",
+        protocol: "web+minamiharuto",
         url: "/?pwaprotocolredirect=%s",
       },
     ],
@@ -138,7 +138,7 @@ export default function manifest() {
     push_notifications: true,
     scope_extensions: [
       {
-        origin: "https://polgubau.com",
+        origin: "https://minamiharuto.github.io",
       },
     ],
     launch_handler: {

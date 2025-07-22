@@ -5,8 +5,8 @@ import { useMemo } from "react";
 export const GeoTooltip = () => {
   return useMemo(
     () => (
-      <Tooltip label={<div>DE</div>}>
-        <span className="cursor-help">Freiburg.</span>
+      <Tooltip label={<div>JP</div>}>
+        <span className="cursor-help">Osaka, Japan.</span>
       </Tooltip>
     ),
     [],

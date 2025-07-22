@@ -20,12 +20,12 @@ const computedFields = {
       dateModified: doc.publishedAt,
       description: doc.summary,
       image: doc.cover
-        ? `https://polgubau.com/media/${doc.title}/${doc.cover}`
-        : `https://polgubau.com/og?title=${doc.title}`,
-      url: `https://polgubau.com/projects/${doc._raw.flattenedPath}`,
+        ? `https://minamiharuto.github.io/media/${doc.title}/${doc.cover}`
+        : `https://minamiharuto.github.io/og?title=${doc.title}`,
+      url: `https://minamiharuto.github.io/projects/${doc._raw.flattenedPath}`,
       author: {
         "@type": "Person",
-        name: "Pol Gubau Amores",
+        name: "Minami Haruto",
       },
     }),
   },

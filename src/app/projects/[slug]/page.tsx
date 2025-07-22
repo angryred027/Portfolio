@@ -27,28 +27,28 @@ export async function generateMetadata(props: GenerateMetadataProps, parent: Res
         title: "Not found",
         description: "This project was not found.",
         type: "article",
-        url: `https://polgubau.com/project/${params.slug}`,
+        url: `https://minamiharuto.github.io/project/${params.slug}`,
         images: [
           {
-            url: "https://polgubau.com/og?title=Not found",
+            url: "https://minamiharuto.github.io/og?title=Not found",
           },
         ],
       },
     };
   }
   const { title, endedAt: publishedTime, summary: description, cover: image, slug } = post;
-  const ogImage = image ? `https://polgubau.com/media/${slug}/${image}` : `https://polgubau.com/og?title=${title}`;
+  const ogImage = image ? `https://minamiharuto.github.io/media/${slug}/${image}` : `https://minamiharuto.github.io/og?title=${title}`;
   const previousImages = (await parent).openGraph?.images ?? [];
 
   return {
     title,
     description,
     openGraph: {
-      title: `${title} | Pol Gubau Amores`,
+      title: `${title} | Minami Haruto`,
       description,
       type: "article",
       publishedTime,
-      url: `https://polgubau.com/${slug}`,
+      url: `https://minamiharuto.github.io/${slug}`,
       images: [ogImage, ...previousImages],
     },
     twitter: {
