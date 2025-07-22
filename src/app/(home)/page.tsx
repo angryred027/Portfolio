@@ -10,7 +10,6 @@ import { LoadingGallery } from "../../components/circularGallery/loading-gallery
 import { lazy, Suspense, useEffect } from "react";
 import { useSearchParams } from "next/navigation";
 import WorkExperienceCard from "@/components/Experiences/ExperienceCard";
-import { AnimatedLogo } from "@/components/AnimatedLogo";
 
 const CircularGallery = lazy(() => import("@/components/circularGallery/circularGallery"));
 const imagesPhones = [

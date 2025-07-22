@@ -476,33 +476,34 @@ class App {
     const defaultItems = [
       {
         image: "/media/photos/1.webp",
-        text: "みなみかわらまち さんちょうめ いちばんち", // 南川原町3丁目1番地
+        text: "静かな路地、南川原町三丁目一番地にて。", // A quiet alley in Minamikawara-cho 3-chome 1-ban.
       },
       {
         image: "/media/photos/2.webp",
-        text: "おおさかふ さかいし", // 大阪府堺市
+        text: "大阪府堺市──故郷の記憶が息づく街。", // Sakai City, Osaka — where memories of home live on.
       },
       {
         image: "/media/photos/3.webp",
-        text: "だい ろくじゅうさんき そつぎょうせい", // 第63期卒業生
+        text: "第六十三期卒業生として歩み出した春。", // Spring of stepping forward as a 63rd-term graduate.
       },
       {
         image: "/media/photos/4.webp",
-        text: "こうがくぶ", // 工学部
+        text: "工学部での学びが、今の原点となった。", // The learning in the Faculty of Engineering became my foundation.
       },
       {
         image: "/media/photos/5.webp",
-        text: "おおさかふ さかいし", // 大阪府堺市
+        text: "変わらぬ風景──大阪府堺市。", // The unchanging scenery of Sakai, Osaka.
       },
       {
         image: "/media/photos/6.webp",
-        text: "おおさかふ さかいし なかく", // 大阪府堺市中区
+        text: "堺市中区、心の奥に残る日常の一瞬。", // Sakai’s Naka Ward — a fleeting moment of everyday life engraved in my heart.
       },
       {
         image: "/media/photos/7.webp",
-        text: "こくさいこうりゅう", // 国際交流
+        text: "国際交流のなかで広がった世界と友情。", // A world and friendships expanded through international exchange.
       },
     ];
+
     const galleryItems = items?.length ? items : defaultItems;
     this.mediasImages = galleryItems.concat(galleryItems);
     this.medias = this.mediasImages.map((data, index) => {
