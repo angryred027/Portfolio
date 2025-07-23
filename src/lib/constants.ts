@@ -5,7 +5,7 @@ export const metadata = {
   name: "Haruto",
   fullName: "Minami Haruto",
   slogan: "Full-stack Developer",
-  picture: "/assets/blog/authors/pol.jpg",
+  picture: "/assets/blog/authors/angryred027.jpg",
   tags: [
     "Minami Haruto",
     "Minami",
@@ -36,10 +36,10 @@ export const metadata = {
   ],
 
   links: {
-    website: "https:/angryred027.github.io/",
+    website: "https://minamiharuto.vercel.app/",
     github: "http://github.com/angryred027",
     email: "mailto:minamiharuto727@gmail.com",
-    cv: "https:/angryred027.github.io/files/MinamiHaruto.pdf"
+    cv: "/files/MinamiHaruto.pdf"
   },
 
   homeOgImage: "/assets/thumbnail.png",

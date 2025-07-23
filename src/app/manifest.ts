@@ -13,55 +13,55 @@ export default function manifest() {
     orientation: "any",
     lang: "en",
     prefer_related_applications: false,
-    categories: ["development", "pol", "Minami Haruto", "Minami Haruto", "news", "blog", "frontend"],
+    categories: ["development", "haruto", "Minami Haruto", "minami", "news", "blog", "full-stack developer", "portfolio"],
     name: "Minami Haruto",
     description:
-      "👋🏼 Hello! I'm Minami Haruto, a Frontend Developer and Designer based in Germany. I love to create beautiful and functional websites and apps.",
+      "Hello! I'm Minami Haruto, a senior web developer based in Osaka, Japan. I love to build beautiful and functional websites and apps.",
     short_name: "Pol Gubau",
     related_applications: [],
     icons: [
       {
-        src: "/brand/icon-rounded-512x512.png",
+        src: "/brand/favicon-512x512.png",
         sizes: "512x512",
         type: "image/png",
         purpose: "any",
       },
       {
-        src: "/brand/maskable-icon.png",
+        src: "/favicon-512x512.png",
 
         sizes: "512x512",
         type: "image/png",
         purpose: "maskable",
       },
       {
-        src: "/brand/maskable-icon.png",
+        src: "/brand/favicon-512x512.png",
         sizes: "512x512",
         type: "image/png",
         purpose: "monochrome",
       },
 
       {
-        src: "/brand/icon-192x192.png",
+        src: "/brand/favicon-192x192.png",
         sizes: "192x192",
         type: "image/png",
       },
       {
-        src: "/brand/icon-256x256.png",
+        src: "/brand/favicon-192x192.png",
         sizes: "257x257",
         type: "image/png",
       },
       {
-        src: "/brand/icon-384x384.png",
+        src: "/brand/favicon-384x384.png",
         sizes: "385x385",
         type: "image/png",
       },
       {
-        src: "/brand/icon-512x512.png",
+        src: "/brand/favicon-512x512.png",
         sizes: "513x513",
         type: "image/png",
       },
       {
-        src: "/brand/maskable_icon_x192.png",
+        src: "/brand/favicon-192x192.png",
         sizes: "192x192",
         type: "image/png",
         purpose: "maskable",
@@ -138,7 +138,7 @@ export default function manifest() {
     push_notifications: true,
     scope_extensions: [
       {
-        origin: "https://minamiharuto.github.io",
+        origin: "https://minamiharuto.vercel.app",
       },
     ],
     launch_handler: {

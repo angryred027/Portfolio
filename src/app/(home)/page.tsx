@@ -76,11 +76,11 @@ export default function Page() {
             </p>
           </section>
 
-          <section className="flex flex-col gap-5">
+          <section className="flex flex-col gap-5  scroll-mt-20" id="experiences" >
             <hgroup className="balance mt-4 flex flex-col gap-5 font-medium text-3xl">
               <h2>Professional Experiences</h2>
             </hgroup>
-            <div id="experiences" className="flex flex-col p-1 w-full scroll-mt-20">
+            <div className="flex flex-col p-1 w-full">
               <p className="mb-2">
                 I began my freelance journey as a PHP backend developer <strong>{yearSince2018} years ago</strong>, working with startup-oriented frameworks like <strong>CodeIgniter</strong> and <strong>Laravel</strong>.<br />
                 Over time, I transitioned into frontend development, gaining deep experience with <strong>React.js</strong>, <strong>Angular.js</strong>, <strong>Vue.js</strong>, and most recently, <strong>Next.js</strong>.<br />

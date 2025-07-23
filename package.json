@@ -70,27 +70,23 @@
   "author": {
     "name": "Minami Haruto",
     "email": "angryred027@gmail.com",
-    "url": "https://minamiharuto.github.io"
+    "url": "https://minamiharuto.vercel.app"
   },
-  "homepage": "https://minamiharuto.github.io",
+  "homepage": "https://minamiharuto.vercel.app",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/minamiharuto/portfolio"
-  },
-  "bugs": {
-    "url": "https://github.com/minamiharuto/portfolio/issues",
-    "email": "angryred027@gmail.com"
+    "url": "https://github.com/angryred027/Portfolio"
   },
   "publisher": "Minami Haruto",
   "contributors": [
     {
       "name": "Minami Haruto",
       "email": "angryred027@gmail.com",
-      "url": "https://minamiharuto.github.io"
+      "url": "https://minamiharuto.vercel.app"
     }
   ],
-  "icon": "https://minamiharuto.github.io/favicon.ico",
+  "icon": "https://minamiharuto.vercel.app/favicon.ico",
   "name": "minamiharuto",
   "licenses": [
     {

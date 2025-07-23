@@ -39,7 +39,7 @@ export function Footer() {
       <p>
         © {new Date().getFullYear()} &nbsp;
         <span className="font-semibold text-primary-700 dark:text-primary">
-          <Link href="https://minamiharuto.github.io" title="Visit my website">
+          <Link href="https://minamiharuto.vercel.app" title="Visit my website">
             {metadata.fullName}
           </Link>
         </span>{" "}

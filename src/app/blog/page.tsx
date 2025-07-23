@@ -7,17 +7,17 @@ export const metadata: Metadata = {
   description: "Read my thoughts on software development, design, and more, and get to know me better.",
   keywords: ["projects", "portfolio", "web development", "coding", "Minami Haruto"],
   authors: {
-    url: "https://minamiharuto.github.io",
+    url: "https://minamiharuto.vercel.app",
     name: "Minami Haruto",
   },
   openGraph: {
     title: "Blog | Minami Haruto",
     description: "Read my thoughts on software development, design, and more, and get to know me better.",
-    url: "https://minamiharuto.github.io/blog",
+    url: "https://minamiharuto.vercel.app/blog",
     locale: "en_US",
     images: [
       {
-        url: "https://minamiharuto.github.io/brand/blog-thumbnail.png",
+        url: "https://minamiharuto.vercel.app/brand/blog-thumbnail.png",
         width: 1920,
         height: 1080,
         alt: "Minami Haruto' blog",

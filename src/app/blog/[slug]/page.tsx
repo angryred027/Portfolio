@@ -23,10 +23,10 @@ export async function generateMetadata(props: GenerateMetadataProps, parent: Res
         title: "Not found",
         description: "This blog was not found.",
         type: "article",
-        url: `https://minamiharuto.github.io/blog/${params.slug}`,
+        url: `https://minamiharuto.vercel.app/blog/${params.slug}`,
         images: [
           {
-            url: "https://minamiharuto.github.io/og?title=Not found",
+            url: "https://minamiharuto.vercel.app/og?title=Not found",
           },
         ],
       },
@@ -34,7 +34,7 @@ export async function generateMetadata(props: GenerateMetadataProps, parent: Res
   }
 
   const { title, publishedAt: publishedTime, summary: description, cover, slug } = post;
-  const ogImage = cover ? `https://minamiharuto.github.io/media/${slug}/${cover}` : `https://minamiharuto.github.io/og?title=${title}`;
+  const ogImage = cover ? `https://minamiharuto.vercel.app/media/${slug}/${cover}` : `https://minamiharuto.vercel.app/og?title=${title}`;
   const previousImages = (await parent).openGraph?.images ?? [];
 
   return {
@@ -45,7 +45,7 @@ export async function generateMetadata(props: GenerateMetadataProps, parent: Res
       description,
       type: "article",
       publishedTime,
-      url: `https://minamiharuto.github.io/${slug}`,
+      url: `https://minamiharuto.vercel.app/${slug}`,
       images: [ogImage, ...previousImages],
     },
     twitter: {

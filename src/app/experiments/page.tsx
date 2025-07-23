@@ -9,18 +9,18 @@ export const metadata: Metadata = {
     "Discover some UI pieces I used for various projects, these are short videos that show the UI in action.",
   keywords: ["UI", "UX", "web development", "coding", "Minami Haruto"],
   authors: {
-    url: "https://minamiharuto.github.io",
+    url: "https://minamiharuto.vercel.app",
     name: "Minami Haruto",
   },
   openGraph: {
     title: "Concepts | Minami Haruto",
     description:
       "Discover some UI pieces I used for various projects, these are short videos that show the UI in action.",
-    url: "https://minamiharuto.github.io/concepts",
+    url: "https://minamiharuto.vercel.app/concepts",
     locale: "en_US",
     images: [
       {
-        url: "https://minamiharuto.github.io/brand/concepts-thumbnail.png",
+        url: "https://minamiharuto.vercel.app/brand/concepts-thumbnail.png",
         width: 1920,
         height: 1080,
         alt: "Minami Haruto' Concepts",
