@@ -17,7 +17,9 @@ export default function manifest() {
     name: "Minami Haruto",
     description:
       "Hello! I'm Minami Haruto, a senior web developer based in Osaka, Japan. I love to build beautiful and functional websites and apps.",
-    short_name: "Pol Gubau",
+    short_name: "Haruto",
+    family_name: "Haruto",
+    given_name: "Minami",
     related_applications: [],
     icons: [
       {
@@ -101,17 +103,17 @@ export default function manifest() {
     ],
     screenshots: [
       {
-        src: "/brand/screenshot.jpg",
+        src: "/brand/screenshot.png",
         type: "image/jpeg",
         sizes: "900x1600",
       },
       {
-        src: "/brand/screenshot2.jpg",
+        src: "/brand/screenshot2.png",
         type: "image/jpeg",
         sizes: "900x1600",
       },
       {
-        src: "/brand/screenshot3.jpg",
+        src: "/brand/screenshot3.png",
         type: "image/jpeg",
         sizes: "900x1600",
       },

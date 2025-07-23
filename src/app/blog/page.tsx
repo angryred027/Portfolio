@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://minamiharuto.vercel.app/brand/blog-thumbnail.png",
+        url: "https://minamiharuto.vercel.app/brand/thumbnail-blog.png",
         width: 1920,
         height: 1080,
         alt: "Minami Haruto' blog",
