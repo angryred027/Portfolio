@@ -3,7 +3,11 @@ import { poluiPlugin } from "pol-ui";
 export default {
   content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        'spin-slow': 'spin 2s linear infinite',
+      },
+    },
   },
   plugins: [
     poluiPlugin({

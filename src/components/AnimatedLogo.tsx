@@ -10,35 +10,28 @@ export function AnimatedLogo() {
 
   return (
     <div className="relative w-[200px] h-[200px]">
-      {/* SVG Circle Animation */}
       <svg
         width={size}
         height={size}
         className="absolute top-0 left-0"
+        style={{ transformOrigin: "50% 50%" }}
       >
-        <circle
-          cx={size / 2}
-          cy={size / 2}
-          r={radius}
-          stroke="#D1D5DB" // smooth gray color
-          strokeWidth={strokeWidth}
-          fill="transparent"
-          strokeDasharray={`${circumference} ${circumference}`}
-          strokeDashoffset={circumference}
-          style={{ transform: "rotate(-90deg)", transformOrigin: "50% 50%" }}
-        >
-          <animate
-            attributeName="stroke-dashoffset"
-            from={circumference}
-            to={0}
-            dur="1s"
-            repeatCount="1"
-            fill="freeze"
+        <g className="animate-spin" style={{ transformOrigin: "center" }}>
+          <circle
+            cx={size / 2}
+            cy={size / 2}
+            r={radius}
+            fill="none"
+            stroke="#9CA3AF" // Tailwind gray-400
+            strokeWidth={strokeWidth}
+            strokeLinecap="round"
+            strokeDasharray={`${circumference * 0.25} ${circumference}`}
+            strokeDashoffset="0"
           />
-        </circle>
+        </g>
       </svg>
 
-      {/* Centered Avatar */}
+      {/* Avatar */}
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
         <img
           src="/brand/favicon-192x192.png"
