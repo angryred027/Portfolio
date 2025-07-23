@@ -19,15 +19,15 @@ This is the repository for my personal portfolio and blog. It is built with Next
 
 ## **Demo**
 
-Visit my portfolio at **[https://www.minamiharuto.com](https://www.minamiharuto.com/)** to see the project in action!
+Visit my portfolio at **[https://minamiharuto.vercel.app](https://minamiharuto.vercel.app/)** to see the project in action!
 
 ## **Screenshots**
 
-![Home Page](https://www.minamiharuto.com/brand/thumbnail.png)
+![Home Page](https://minamiharuto.vercel.app/brand/thumbnail.png)
 
-![Blog Page](https://www.minamiharuto.com/brand/thumbnail-blog.png)
+![Blog Page](https://minamiharuto.vercel.app/brand/thumbnail-blog.png)
 
-![Projects Page](https://www.minamiharuto.com/brand/thumbnail-projects.png)
+![Projects Page](https://minamiharuto.vercel.app/brand/thumbnail-projects.png)
 
 ## **Technologies Used**
 
@@ -43,19 +43,15 @@ Visit my portfolio at **[https://www.minamiharuto.com](https://www.minamiharuto.
 
 ## **Installation**
 
-1. Clone the repository: **`git clone https://github.com/minamiharuto/portfolio.git`**
+1. Clone the repository: **`git clone https://github.com/angryred027/Portfolio.git`**
 2. Install dependencies: **`pnpm i`**
 3. Run the development server: **`pnpm dev`**
 4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## **License**
-
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/minamiharuto/portfolio/blob/main/LICENSE.txt) file for details.
-
 ## **Contact**
 
 - **Email:** [angryred027@gmail.com, minamiharuto727@gmail.com](angryred027@gmail.com)
-- **Website:** [https://www.minamiharuto.com](https://www.minamiharuto.com/)
+- **Website:** [https://minamiharuto.vercel.app](https://minamiharuto.vercel.app/)
 - **GitHub:** [https://github.com/minamiharuto](https://github.com/minamiharuto)
 
 Thanks for reading, have a nice day!

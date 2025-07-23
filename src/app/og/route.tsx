@@ -11,7 +11,7 @@ export function GET(req: NextRequest) {
     <div className="grid h-full w-full place-items-center bg-primary text-6xl text-black text-cemter">
       <div
         style={{
-          background: "url(https://minamiharuto.github.io/assets/thumbnail.png) no-repeat center",
+          background: "url(https://minamiharuto.vercel.app/assets/thumbnail.png) no-repeat center",
         }}
       />
       <p className="text-center">{postTitle}</p>

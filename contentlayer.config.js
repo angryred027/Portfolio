@@ -20,9 +20,9 @@ const computedFields = {
       dateModified: doc.publishedAt,
       description: doc.summary,
       image: doc.cover
-        ? `https://minamiharuto.github.io/media/${doc.title}/${doc.cover}`
-        : `https://minamiharuto.github.io/og?title=${doc.title}`,
-      url: `https://minamiharuto.github.io/projects/${doc._raw.flattenedPath}`,
+        ? `https://minamiharuto.vercel.app/media/${doc.title}/${doc.cover}`
+        : `https://minamiharuto.vercel.app/og?title=${doc.title}`,
+      url: `https://minamiharuto.vercel.app/projects/${doc._raw.flattenedPath}`,
       author: {
         "@type": "Person",
         name: "Minami Haruto",

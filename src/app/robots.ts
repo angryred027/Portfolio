@@ -7,7 +7,7 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: "/private/",
     },
-    sitemap: "https://minamiharuto.github.io/sitemap.xml",
-    host: "https://minamiharuto.github.io",
+    sitemap: "https://minamiharuto.vercel.app/sitemap.xml",
+    host: "https://minamiharuto.vercel.app",
   };
 }
