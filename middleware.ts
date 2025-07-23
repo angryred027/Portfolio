@@ -10,6 +10,7 @@ export function middleware(request: NextRequest) {
         console.log(`[middleware] Country detected: ${country}`);
     }
 
+    console.log(`[middleware] Country detected`);
     const isJapan = country === 'JP';
     const pathname = request.nextUrl.pathname;
 

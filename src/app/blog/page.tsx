@@ -37,7 +37,7 @@ export default function Page() {
   return (
     <>
       <h1 className="mb-8 text-pretty text-center font-medium text-xl md:text-start md:font-semibold md:text-2xl ">
-        Some thoughts written down ✏️
+        Some thoughts written down.
       </h1>
       <BlogList blogs={sortBlogs(allBlogs)} />
     </>
