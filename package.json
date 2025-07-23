@@ -14,8 +14,8 @@
     "knip": "knip"
   },
   "dependencies": {
-    "@minamiharuto/animated": "^1.0.12",
-    "@minamiharuto/configs": "^1.0.1",
+    "@polgubau/animated": "^1.0.12",
+    "@polgubau/configs": "^1.0.1",
     "@vercel/edge-config": "^0.4.1",
     "contentlayer": "^0.3.4",
     "framer-motion": "^10.18.0",
