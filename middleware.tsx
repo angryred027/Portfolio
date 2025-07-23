@@ -1,13 +1,12 @@
 import { NextRequest, NextResponse } from 'next/server';
 
 export function middleware(request: NextRequest) {
-    // Fallback mock for local testing
-
-    console.log(`[middleware] Request URL: ${request.url}`);
-    const mockCountry = request.nextUrl.searchParams.get('mock-country');
-    const country = request.geo?.country || mockCountry;
+    // Extend request type to include geo for type safety
+    const country = (request as NextRequest & { geo?: { country?: string } }).geo?.country
+        || request.nextUrl.searchParams.get('mock-country');
 
     if (process.env.NODE_ENV === 'development') {
+        console.log(`[middleware] Request URL: ${request.url}`);
         console.log(`[middleware] Country detected: ${country}`);
     }
 

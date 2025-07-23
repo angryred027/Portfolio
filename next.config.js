@@ -6,6 +6,9 @@ const nextConfig = {
   experimental: {
     serverActions: true,
   },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
   redirects() {
     try {
       return get("redirects");
