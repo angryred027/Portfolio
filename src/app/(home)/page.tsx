@@ -66,6 +66,15 @@ export default function Page() {
         <article className="flex flex-col gap-8">
           <section className="flex flex-col gap-5">
             <hgroup className="balance mt-4 flex flex-col gap-5 font-medium text-3xl">
+              <h2>Minami Haruto</h2>
+            </hgroup>
+            <p>
+              My days are filled with small joys — reading quietly, exploring worlds through video, walking and thinking, cycling through the night breeze, sharing time with family, and coding late into the night. Whether through a web app or a keyboard,
+              I love creating something cool that everyone can recognize and enjoy.
+            </p>
+          </section>
+          <section className="flex flex-col gap-5">
+            <hgroup className="balance mt-4 flex flex-col gap-5 font-medium text-3xl">
               <h2>Crafting clean code with a clear conscience.</h2>
             </hgroup>
 
@@ -73,6 +82,9 @@ export default function Page() {
               With {yearSince2018}+ years of hands-on experience in web development, and I&apos;ve worked on a variety of projects, from small startups to large enterprises.
               I turn design specs into smooth, user-friendly interfaces with <strong>smooth, user-friendly</strong> and <strong>production-ready</strong>  code.<br></br>
               Consistently earned positive feedback and long-term partnerships by delivering on time and exceeding client expectations.<br></br>
+              I take projects from concept to launch - architecture and designing clean systems, building reusable UI components, and optimizing rendering for speed and scalability.
+              I thrive at the intersection of engineering and design, creating products that are intuitive, fast, and visually engaging.
+              Whether working independently, owning features within a team, or co-founding a service platform, my focus remains the same: write clean, scalable code and deliver exceptional user experiences.
             </p>
           </section>
 
@@ -150,6 +162,8 @@ export default function Page() {
           </hgroup>
           <p>
             Each moment captured holds a quiet story — a reflection of beauty, emotion, and the fleeting nature of time.
+            From the days in the Faculty of Engineering that became the foundation of my path, to the fresh breath of spring at graduation, and friendships nurtured across cultures.
+            Captures the journey I have walked and the scenes engraved in my heart.
           </p>
           <div className="relative h-[550px] w-full">
             <div className="sticky top-0 left-0 w-full">
