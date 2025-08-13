@@ -66,11 +66,13 @@ export default function Page() {
         <article className="flex flex-col gap-8">
           <section className="flex flex-col gap-5">
             <hgroup className="balance mt-4 flex flex-col gap-5 font-medium text-3xl">
-              <h2>Minami Haruto</h2>
+              <h2>ABOUT ME • SAKAI, OSAKA</h2>
             </hgroup>
             <p>
               My days are filled with small joys — reading quietly, exploring worlds through video, walking and thinking, cycling through the night breeze, sharing time with family, and coding late into the night. Whether through a web app or a keyboard,
               I love creating something cool that everyone can recognize and enjoy.
+              And late into the night, I immerse myself in coding — building web apps, designing clean interfaces, and solving problems — turning ideas into tangible, usable, and <strong>production-ready</strong> creations.
+              Whether behind a camera, on a bike, or at the keyboard, I strive to create experiences that are engaging, memorable, and <strong>instantly recognized as something cool</strong>.
             </p>
           </section>
           <section className="flex flex-col gap-5">
@@ -79,12 +81,15 @@ export default function Page() {
             </hgroup>
 
             <p>
-              With {yearSince2018}+ years of hands-on experience in web development, and I&apos;ve worked on a variety of projects, from small startups to large enterprises.
-              I turn design specs into smooth, user-friendly interfaces with <strong>smooth, user-friendly</strong> and <strong>production-ready</strong>  code.<br></br>
-              Consistently earned positive feedback and long-term partnerships by delivering on time and exceeding client expectations.<br></br>
-              I take projects from concept to launch - architecture and designing clean systems, building reusable UI components, and optimizing rendering for speed and scalability.
+              With {yearSince2018}+ years of hands-on experience in web development, I have worked on projects ranging from small startups to large enterprises.
+              I turn design specifications into <strong>smooth, user-friendly</strong> interfaces with <strong>production-ready</strong> code.
+              Consistently earning positive feedback and building long-term partnerships, I deliver on time and exceed client expectations.
+
+              I take projects from concept to launch — architecting and designing clean systems, building reusable <strong>UI/UX components,</strong> and <strong>optimizing</strong> rendering for speed and <strong>scalability</strong>.
               I thrive at the intersection of engineering and design, creating products that are intuitive, fast, and visually engaging.
-              Whether working independently, owning features within a team, or co-founding a service platform, my focus remains the same: write clean, scalable code and deliver exceptional user experiences.
+
+              Whether working independently, owning features within a team, or co-founding a service platform, my focus remains the same: write <strong>clean, scalable code</strong> and deliver exceptional user experiences.
+
             </p>
           </section>
 
