@@ -37,7 +37,7 @@ export const metadata = {
 
   links: {
     website: "https://minamiharuto.vercel.app/",
-    github: "http://github.com/angryred027",
+    github: "https://gitlab.com/angryred027",
     email: "mailto:minamiharuto727@gmail.com",
     cv: "/files/MinamiHaruto.pdf"
   },
