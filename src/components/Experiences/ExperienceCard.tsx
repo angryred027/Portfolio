@@ -27,7 +27,7 @@ const workExperiences = [
             "/media/company/6.webp",
             "/media/company/7.webp",
         ],
-        role: "Backend Enginner",
+        role: "Backend Developer",
         company: "SCI.co., Ltd",
         date: "Nov 2016 — Jul 2018",
         location: "Yodogawa, Osaka, Japan",
