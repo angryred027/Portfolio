@@ -66,22 +66,21 @@ export function MainSocials() {
       />
       <SocialLink
         href={metadata.links.cv}
-        label="Cirriculum Vitae"
-        icon={null}
-      // icon={
-      //   <svg
-      //     xmlns="http://www.w3.org/2000/svg"
-      //     viewBox="0 0 24 24"
-      //     fill="currentColor"
-      //     stroke="currentColor"
-      //     strokeWidth="0"
-      //     height="1em"
-      //     width="1em"
-      //   >
-      //     <title>Download</title>
-      //     <path d="M12 16a1 1 0 0 1-.7-.3l-5-5a1 1 0 0 1 1.4-1.4L11 12.59V4a1 1 0 1 1 2 0v8.59l3.3-3.3a1 1 0 0 1 1.4 1.42l-5 5A1 1 0 0 1 12 16zm-7 4a1 1 0 0 1 0-2h14a1 1 0 1 1 0 2H5z" />
-      //   </svg>
-      // }
+        label="Resume"
+        icon={
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            stroke="currentColor"
+            strokeWidth="0"
+            height="1em"
+            width="1em"
+          >
+            <title>Minami Haruto - Full-Stack Software Engineer</title>
+            <path d="M12 16a1 1 0 0 1-.7-.3l-5-5a1 1 0 0 1 1.4-1.4L11 12.59V4a1 1 0 1 1 2 0v8.59l3.3-3.3a1 1 0 0 1 1.4 1.42l-5 5A1 1 0 0 1 12 16zm-7 4a1 1 0 0 1 0-2h14a1 1 0 1 1 0 2H5z" />
+          </svg>
+        }
       />
     </div>
   );

@@ -13,7 +13,16 @@ export default function manifest() {
     orientation: "any",
     lang: "en",
     prefer_related_applications: false,
-    categories: ["development", "haruto", "Minami Haruto", "minami", "news", "blog", "full-stack developer", "portfolio"],
+    categories: [
+      "development",
+      "haruto",
+      "Minami Haruto",
+      "minami",
+      "news",
+      "blog",
+      "full-stack software engineer",
+      "portfolio",
+    ],
     name: "Minami Haruto",
     description:
       "Hello! I'm Minami Haruto, a senior web developer based in Osaka, Japan. I love to build beautiful and functional websites and apps.",
