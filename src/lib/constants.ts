@@ -4,7 +4,7 @@ export const metadata = {
     "Hello! I'm Minami Haruto, a Senior Web Developer based in Osaka, Japan. I love to create beautiful and functional websites and apps.",
   name: "Haruto",
   fullName: "Minami Haruto",
-  slogan: "Full-stack Developer",
+  slogan: "Full-Stack Software Engineer",
   picture: "/assets/blog/authors/angryred027.jpg",
   tags: [
     "Minami Haruto",
@@ -15,7 +15,7 @@ export const metadata = {
     "angry",
     "red",
     "angryred",
-    "full-stack developer",
+    "full-stack software engineer",
     "Frontend Developer",
     "Frontend",
     "Developer",
@@ -39,7 +39,7 @@ export const metadata = {
     website: "https://minamiharuto.vercel.app/",
     github: "https://github.com/angryred027",
     email: "mailto:minamiharuto727@gmail.com",
-    cv: "/files/MinamiHaruto.pdf"
+    cv: "/files/Minami%20Haruto.pdf",
   },
 
   homeOgImage: "/assets/thumbnail.png",

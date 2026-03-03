@@ -1,7 +1,7 @@
 {
   "private": false,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev",
     "build": "next build",
     "build-only": "next build",
     "start": "next start",
@@ -62,7 +62,7 @@
     "projects",
     "web development",
     "web design",
-    "full-stack developer",
+    "full-stack software engineer",
     "osaka",
     "sakai",
     "japan"

@@ -11,7 +11,7 @@ import { Providers } from "./providers";
 //
 const APP_NAME = constants.title;
 //
-const APP_DEFAULT_TITLE = `${APP_NAME} - Senior Web Developer`;
+const APP_DEFAULT_TITLE = `${APP_NAME} - Full-Stack Software Engineer`;
 const APP_TITLE_TEMPLATE = `%s | ${APP_NAME}`;
 const APP_DESCRIPTION = constants.description;
 export const metadata: Metadata = {
@@ -116,7 +116,11 @@ export default function RootLayout({
   children: ReactNode;
 }>) {
   return (
-    <html lang="en" dir="ltr" className={`${font.className} w-full overflow-x-hidden`}>
+    <html
+      lang="en"
+      dir="ltr"
+      className={`${font.className} w-full overflow-x-hidden`}
+    >
       <body>
         <Providers>
           <ScrollLine />
