@@ -143,7 +143,7 @@ export default function Page() {
         </article>
 
         <section>
-          <hgroup className="mt-4 flex flex-col gap-5 font-medium text-3xl">
+          <hgroup className="mt-4  mb-2 flex flex-col gap-5 font-medium text-3xl">
             <h2>
               Pandemic Relief Efforts, Building COVID-19 Tracking Tools: My
               Volunteer Experience
